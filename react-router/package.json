@@ -1,5 +1,5 @@
 {
-  "name": "currency-converter",
+  "name": "react-router",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "currency-converter": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router": "file:",
+    "react-router-dom": "^7.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
