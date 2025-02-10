@@ -1,14 +1,17 @@
 import { useState } from 'react'
+import AddTodo from './components/AddTodo'
+import Todos from './components/Todos'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    Hello Ji
-      
-    </>
+    <div>
+      <h1>Learn About Redux</h1>
+      <AddTodo/>
+      <Todos/>
+    </div>
   )
 }
 
